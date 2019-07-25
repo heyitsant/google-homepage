@@ -1,0 +1,24 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+}
+#right-nav {
+    margin-right: 20px;
+    float: right; 
+    width: 250px;
+    height: 48px;
+}
+
+div ul {
+    list-style: none;
+}
+
+div ul li { 
+    float: right;
+    padding: 5px 5px;
+} 
+
+.grid {
+    height: 23px;
+    position: relative;
+}
