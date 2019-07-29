@@ -2,6 +2,17 @@ body {
     font-family: arial, helvetica, sans-serif;
     font-size: 13px;
 }
+
+#header {
+    display: block;
+    vertical-align: baseline;
+}
+
+#logo-div {
+    display: block;
+    vertical-align: baseline;
+}
+
 #right-nav {
     margin-right: 20px;
     float: right; 
@@ -40,6 +51,7 @@ a:hover {
 
 #main-body {
     text-align: center;
+    display: block;
     }
 
 #logo {
@@ -47,4 +59,8 @@ a:hover {
     height: 220px;
     margin-right: auto;
     margin-left: auto;
+}
+
+#footer {
+    position: absolute;
 }
