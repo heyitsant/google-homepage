@@ -57,3 +57,13 @@ li:hover {
     color: #4E4E4E;
 }
 
+/* styling search form  */
+
+#logo-png {
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 109px;
+}
