@@ -1,3 +1,4 @@
+
 #box {
     position: relative; //positioning logo
     
@@ -66,4 +67,23 @@ li:hover {
     margin-left: auto;
     margin-right: auto;
     padding-top: 109px;
+}
+
+form {
+    display: block;
+}
+
+.center {
+    margin: 0 auto;
+    width: 1139px;
+}
+
+.search-bar {
+    width: 584px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding: 0px 10px;
+    display: block;
+    margin: 0 auto;
 }
