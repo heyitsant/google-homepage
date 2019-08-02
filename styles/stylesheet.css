@@ -1,7 +1,6 @@
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+#box {
+    position: relative; //positioning logo
+    
 }
 
 /* Font Style */
@@ -20,7 +19,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+li:hover {
     text-decoration: underline;
 }
 
@@ -32,14 +31,19 @@ a:hover {
 
 }
 
+#box {
+    overflow: hidden;
+    position: relative;
+    top: -3px;
+}
+
 #left-nav {
     display: inline-block;
     float: left;
-    
 }
 
 #right-nav {
-    display: inline-block;
+    display: inline;
     float: right;
 }
 
@@ -50,5 +54,6 @@ a:hover {
     text-align: center;
     white-space: nowrap;
     height: 30px;
+    color: #4E4E4E;
 }
 
