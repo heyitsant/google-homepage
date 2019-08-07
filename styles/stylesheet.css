@@ -1,6 +1,6 @@
 
 #box {
-    position: relative; //positioning logo
+    position: relative;
     
 }
 
@@ -69,13 +69,32 @@ li:hover {
     padding-top: 109px;
 }
 
-form {
+.form {
     display: block;
 }
 
 .center {
     margin: 0 auto;
     width: 1139px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons input {
+    height: 36px;
+    line-height: 27px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    min-width: 54px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    text-align: center;
 }
 
 .search-bar {
