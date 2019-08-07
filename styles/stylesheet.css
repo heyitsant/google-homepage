@@ -121,6 +121,7 @@ footer {
 }
 
 #footer-top {
+    display: block;
     border: 1px solid #E4E4E4;
     padding-left: 30px;
     text-align: left;
