@@ -106,3 +106,12 @@ li:hover {
     display: block;
     margin: 0 auto;
 }
+
+/* Footer Content */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
