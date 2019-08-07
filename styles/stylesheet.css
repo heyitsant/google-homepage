@@ -114,4 +114,26 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    font-size: small;
+    color: rgba(0,0,0,.54);
+}
+
+#footer-top {
+    border: 1px solid #E4E4E4;
+    padding-left: 30px;
+    text-align: left;
+}
+
+#footer-menu-left {
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+
+#footer-menu-right {
+    display: inline-block;
+    float: right;
+    padding-right: 30px;
 }
