@@ -11,6 +11,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+input:focus {
+    outline: none;
+}
+
+input:hover {
+    box-shadow: #5F6368;
+}
+
 /* list styling */
 li {
     list-style: none;
@@ -41,6 +49,7 @@ li:hover {
 #left-nav {
     display: inline-block;
     float: left;
+    margin-left: 0px;
 }
 
 #right-nav {
@@ -61,12 +70,12 @@ li:hover {
 /* styling search form  */
 
 #logo-png {
-    width: 272px;
-    height: 92px;
+    width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 109px;
+    padding-top: 145px;
+    padding-bottom: 25px;
 }
 
 .form {
@@ -117,7 +126,6 @@ footer {
     background-color: #f2f2f2;
     line-height: 40px;
     font-size: small;
-    color: rgba(0,0,0,.54);
 }
 
 #footer-top {
@@ -125,16 +133,32 @@ footer {
     border: 1px solid #E4E4E4;
     padding-left: 30px;
     text-align: left;
+    color: rgba(0,0,0,.54);
 }
 
-#footer-menu-left {
+#footer-menu-left ul li {
     display: inline-block;
     float: left;
-    padding-left: 30px;
+    padding-right: 27px;
+    color: rgba(0,0,0,.60);
+}
+
+#footer-menu-left ul {
+    padding-inline-start: 30px;
 }
 
 #footer-menu-right {
-    display: inline-block;
     float: right;
-    padding-right: 30px;
+}
+
+#footer-menu-left ul,
+#footer-menu-right ul {
+    margin: 0;
+}
+
+#footer-menu-right ul li {
+    display: inline-block;
+    float: left;
+    padding-right: 27px;
+    color: rgba(0, 0, 0, .60);
 }
